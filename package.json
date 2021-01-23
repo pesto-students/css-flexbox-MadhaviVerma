@@ -1,13 +1,16 @@
 {
-  "name": "flexbox-assignments",
+  "name": "madhvivermapesto",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Satyam Bansal <satyam@pesto.tech>",
-  "license": "MIT",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "start": "live-server src"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
   },
+  "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
 }
